@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
     const products = [
-        { label: 'Christian Dior', price: 35000.00, qtyElement: document.getElementById('qty1') },
-        { label: 'Prada', price: 10000.00, qtyElement: document.getElementById('qty2') },
-        { label: 'Channel', price: 62000.00, qtyElement: document.getElementById('qty3') },
-        { label: 'Louis Vuitton', price: 30000.00, qtyElement: document.getElementById('qty4') },
-        { label: 'Gucci', price: 20000.00, qtyElement: document.getElementById('qty5') },
-        { label: 'Lacoste', price: 30000.00, qtyElement: document.getElementById('qty6') },
+        { label: 'main.webp', price: 35,500, qtyElement: document.getElementById('qty1') },
+        { label: 'main-2.jpg', price: 20,000, qtyElement: document.getElementById('qty2') },
+        { label: 'design.jpg', price: 30,500, qtyElement: document.getElementById('qty3') },
+        { label: 'brands2.jpg', price: 30,900, qtyElement: document.getElementById('qty4') },
+        { label: 'top.jpg', price: 50,00, qtyElement: document.getElementById('qty5') },
+        { label: '3.jpg', price:25,000, qtyElement: document.getElementById('qty6') },
     ];
 
     const carts = document.getElementById("carts");
